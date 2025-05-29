@@ -44,7 +44,7 @@ function App() {
      {/* <Router> */}
       <Navbar title="TEXTUTILS" aboutText="About TextUtils" mode={mode} toggleMode={toggleMode} applyThemeColor={applyThemeColor} />
       <Alert alert={alert} />
-      <TextForm MainText="Enter The Text TO Analyse Below" showAlert={showAlert} mode={mode} themeColor={themeColor} />
+      <TextForm MainText=" Try TextUtils - Word Counter,Character Counter, Remover Extra Spaces " showAlert={showAlert} mode={mode} themeColor={themeColor} />
       {/* <div className="container">
         <Routes>
           <Route exact path="/about" element={<About />} />
